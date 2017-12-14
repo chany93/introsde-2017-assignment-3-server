@@ -4,7 +4,7 @@
 
 Giovanni Rafael Vuolo giovannirafael.vuolo@studenti.unitn.it
 
-My Server: https://assignsde2.herokuapp.com/assign2
+My Server: https://assignsde3.herokuapp.com/ws/people?wsdl
 
 
 ### 2. Project
@@ -39,6 +39,6 @@ The server can perform the following tasks:
  
 ## 3. Execution
 
-clone the project and type ant execute.server on the terminal (under the project directory
+clone the project and type ant start on the terminal (under the project directory
 
 ## 4. Additional Notes
