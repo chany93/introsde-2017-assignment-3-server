@@ -103,7 +103,7 @@
         </target>
         <target name="start">
             <echo message="app start introsde.assignment3.endpoint.PeoplePublisher in ${build.dir}" />
-            <java classname="src.introsde.assignment3.endpoint.PeoplePublisher" classpath="${build.dir}" fork="true">
+            <java classname="introsde.assignment3.endpoint.PeoplePublisher" classpath="${build.dir}" fork="true">
                 <arg value="$JAVA_OPTS  -cp" />
                 <classpath>
                     <path location="build" />
