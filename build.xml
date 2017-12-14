@@ -114,9 +114,9 @@
                 </classpath>
             </java>
         </target>
-        <target name="execute.client">
-            <echo message="ant execute.client introsde.assignment3.client.PeopleClient in ${build.dir}" />
-            <java classname="introsde.assignment3.client.PeopleClient" classpath="${build.dir}" fork="true">
+        <target name="execute.server">
+            <echo message="ant execute.client introsde.assignment3.endpoint.PeoplePublisher in ${build.dir}" />
+            <java classname="introsde.assignment3.endpoint.PeoplePublisher" classpath="${build.dir}" fork="true">
                 <arg value="$JAVA_OPTS  -cp" />
                 <classpath>
                     <path location="build" />
