@@ -39,6 +39,7 @@ The server can perform the following tasks:
  
 ## 3. Execution
 
-clone the project and type ant start on the terminal (under the project directory
+clone the project and type ant start on the terminal (under the project directory)
 
 ## 4. Additional Notes
+The model for Person has been change. a map<String, Integer has been added to store the ratings for the activities. It has been done this way so that the activity has a rate given by a specific person. 
