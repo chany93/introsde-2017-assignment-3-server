@@ -1,1 +1,0 @@
-web: java $JAVA_OPTS -cp target/classes/:target/dependency/*  introsde.assignment3.endpoint.PeoplePublisher
